@@ -59,7 +59,7 @@ $(document).ready(function() {
 
 		for (const [k, v] of Object.entries(subject_points)) {
 			console.log(`${k} : ${v}`);
-			if (v < 85) {
+			if (v < 60) {
 				return "Fail";
 			}
 		}
